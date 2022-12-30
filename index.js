@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 mongoose.set('strictQuery', false);
-mongoose.connect("mongodb+srv://mongoose:test@cluster0.ir5gjii.mongodb.net/todo?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://<no>:<leaks>@")
 .then(() => console.log("Database connection successful")).catch(() => console.log("error"))
 
 const userSchema = new mongoose.Schema({
